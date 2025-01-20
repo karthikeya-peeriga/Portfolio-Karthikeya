@@ -761,10 +761,10 @@
         }
 
         // Update mouse position
-        // document.addEventListener("mousemove", (event) => {
-        //   mouse.x = event.clientX;
-        //   mouse.y = event.clientY;
-        // });
+        document.addEventListener("mousemove", (event) => {
+          mouse.x = event.clientX;
+          mouse.y = event.clientY;
+        });
 
         document.addEventListener("mouseleave", () => {
           mouse.x = 0;
